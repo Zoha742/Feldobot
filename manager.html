@@ -7,7 +7,6 @@
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    
     <script src="config.js"></script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -35,8 +34,6 @@
     <div id="manager-container" class="grid"></div>
 
 <script>
-    console.log("Database connected successfully!");
-
     async function loadManagers() {
         const container = document.getElementById('manager-container');
         container.innerHTML = "<p style='grid-column: span 3; text-align:center;'>Loading...</p>";
@@ -58,7 +55,6 @@
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.innerHTML = `<img src="${manager.img}"><p>${manager.name}</p>`;
-                
                 card.onclick = () => {
                     localStorage.setItem('selected_manager', JSON.stringify(manager));
                     window.location.href = 'managerbio.html';
@@ -66,14 +62,11 @@
                 container.appendChild(card);
             });
         } catch (e) { 
-            console.error(e);
             container.innerHTML = "<p style='grid-column: span 3; text-align:center;'>Error loading managers!</p>";
         }
     }
 
-    window.onload = () => {
-        loadManagers();
-    };
+    window.onload = () => loadManagers();
 </script>
 </body>
 </html>
