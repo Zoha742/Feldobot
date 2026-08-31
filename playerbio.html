@@ -12,6 +12,9 @@
     <!-- সেন্ট্রাল স্ক্রিপ্ট লিঙ্ক -->
     <script src="config.js"></script>
     
+    <!-- Adsgram Interstitial Script SDK -->
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root { --bg: #050a18; --card: #121e36; --primary: #fbbf24; --text: #ffffff; }
@@ -61,6 +64,23 @@
 <script>
     console.log("Database connected successfully!");
 
+    // Adsgram Interstitial Ad Function
+    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45477" }) : null;
+
+    function showAdsgramAd() {
+        if (adController) {
+            adController.show().then((result) => {
+                // Ad completed successfully
+                console.log("Ad shown successfully", result);
+            }).catch((err) => {
+                // Ad failed to show
+                console.log("Ad error", err);
+            });
+        } else {
+            console.log("Adsgram SDK not loaded yet.");
+        }
+    }
+
     function getStatColor(val) {
         if (val >= 95) return "#07F05B"; 
         if (val >= 90) return "#0CA60F"; 
@@ -70,6 +90,11 @@
     }
 
     window.onload = () => {
+        // Trigger Adsgram Interstitial Ad when page loads
+        setTimeout(() => {
+            showAdsgramAd();
+        }, 1000);
+
         const pData = localStorage.getItem('selected_player');
         if (pData) {
             const p = JSON.parse(pData);
