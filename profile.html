@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Feldobot</title> 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root { 
-            --bg: #0b0f19; 
-            --box-bg: rgba(15, 23, 42, 0.75);
-            --primary: #00ff88; 
-            --accent: #00f2fe;
+            --bg: #050a18; 
+            --box-bg: rgba(15, 23, 42, 0.85);
             --text: #ffffff; 
             --border: rgba(255, 255, 255, 0.15); 
         }
@@ -19,26 +18,46 @@
         .container { width: 100%; max-width: 480px; box-sizing: border-box; }
         
         .header { text-align: center; margin-bottom: 25px; padding-top: 10px; }
-        .header h2 { margin: 0; font-size: 22px; background: linear-gradient(90deg, #00ff88, #00f2fe); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+        .header h2 { margin: 0; font-size: 22px; background: linear-gradient(90deg, #ff007f, #7928ca, #00dfd8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
 
-        .profile-card { background: linear-gradient(145deg, #1e293b, #0f172a); border: 1px solid var(--border); border-radius: 20px; padding: 25px 20px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.5); position: relative; overflow: hidden; }
-        .profile-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #00ff88, #00f2fe); }
+        .profile-card { background: linear-gradient(145deg, #121e36, #0a1124); border: 1px solid var(--border); border-radius: 20px; padding: 25px 20px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.5); position: relative; overflow: hidden; }
+        
+        /* রেনবো অ্যানিমেটেড বর্ডার টপ লাইন */
+        .profile-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff); background-size: 400% 400%; animation: rainbowAnim 6s linear infinite; }
 
-        /* প্রোফাইল পিকচার স্টাইল */
-        .avatar-container { width: 85px; height: 85px; margin: 0 auto 20px auto; position: relative; }
-        .avatar { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); box-shadow: 0 0 20px rgba(0, 255, 136, 0.4); display: none; }
-        .avatar-fallback { width: 100%; height: 100%; background: linear-gradient(135deg, #00ff88, #00f2fe); color: #050a18; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 34px; font-weight: bold; box-shadow: 0 0 20px rgba(0, 255, 136, 0.4); }
+        @keyframes rainbowAnim {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* প্রফেশনাল রেনবো ব্যাকগ্রাউন্ড ইফেক্ট অ্যাভাটার কন্টেইনার */
+        .avatar-container { 
+            width: 95px; 
+            height: 95px; 
+            margin: 0 auto 20px auto; 
+            position: relative; 
+            border-radius: 50%; 
+            padding: 4px; /* রেনবো বর্ডারের পুরুত্ব */
+            background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #00ffff, #0000ff, #8b00ff, #ff007f);
+            background-size: 400% 400%;
+            animation: rainbowAnim 4s ease infinite;
+            box-shadow: 0 0 25px rgba(255, 0, 127, 0.4);
+        }
+
+        .avatar { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: none; background: #050a18; }
+        .avatar-fallback { width: 100%; height: 100%; background: #0b0f19; color: #ffffff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 38px; font-weight: bold; }
         
         .info-group { margin-bottom: 15px; text-align: left; background: var(--box-bg); padding: 14px 18px; border-radius: 12px; border: 1px solid var(--border); backdrop-filter: blur(10px); transition: 0.3s; }
-        .info-group:hover { border-color: var(--primary); box-shadow: 0 0 10px rgba(0, 255, 136, 0.2); }
+        .info-group:hover { border-color: #00dfd8; box-shadow: 0 0 12px rgba(0, 223, 216, 0.3); }
         
-        .info-label { font-size: 11px; color: #38bdf8; text-transform: uppercase; font-weight: bold; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+        .info-label { font-size: 11px; color: #00dfd8; text-transform: uppercase; font-weight: bold; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
         .info-value { font-size: 16px; font-weight: bold; color: var(--text); word-break: break-all; }
 
         /* বটম নেভিগেশন */
         .bottom-nav { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 480px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(15px); border-top: 1px solid var(--border); display: flex; justify-content: space-around; padding: 12px 0; z-index: 100; }
         .nav-item { text-align: center; color: #94a3b8; text-decoration: none; font-size: 12px; font-weight: 600; flex: 1; cursor: pointer; transition: 0.2s; }
-        .nav-item.active { color: var(--primary); text-shadow: 0 0 10px rgba(0, 255, 136, 0.5); }
+        .nav-item.active { color: #00dfd8; text-shadow: 0 0 10px rgba(0, 223, 216, 0.5); }
         .nav-item i { font-size: 18px; display: block; margin-bottom: 4px; }
     </style>
 </head>
@@ -81,6 +100,19 @@
         let tg = window.Telegram.WebApp;
         tg.expand();
 
+        // Adsgram Interstitial Ad Setup (UnitID: int-45477)
+        const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45477" }) : null;
+
+        function showAdsgramAd() {
+            if (adController) {
+                adController.show().then((result) => {
+                    console.log("Ad shown successfully", result);
+                }).catch((err) => {
+                    console.log("Ad error", err);
+                });
+            }
+        }
+
         let user = tg.initDataUnsafe.user;
         if (user) {
             let fullName = (user.first_name || "") + (user.last_name ? " " + user.last_name : "");
@@ -88,7 +120,6 @@
             document.getElementById('profileUsername').innerText = user.username ? "@" + user.username : "No Username";
             document.getElementById('profileId').innerText = user.id || "N/A";
 
-            // ইউজারের প্রোফাইল পিকচার (photo_url) চেক করা
             if (user.photo_url) {
                 let pImg = document.getElementById('profileImg');
                 pImg.src = user.photo_url;
@@ -98,12 +129,17 @@
                 document.getElementById('avatarInitial').innerText = (user.first_name ? user.first_name.charAt(0).toUpperCase() : "U");
             }
         } else {
-            // ব্রাউজারে টেস্ট করার জন্য ডেমো ডাটা
             document.getElementById('profileName').innerText = "Demo User";
             document.getElementById('profileUsername').innerText = "@demouser";
             document.getElementById('profileId').innerText = "123456789";
             document.getElementById('avatarInitial').innerText = "D";
         }
+
+        window.onload = () => {
+            setTimeout(() => {
+                showAdsgramAd();
+            }, 1000);
+        };
     </script>
 </body>
 </html>
