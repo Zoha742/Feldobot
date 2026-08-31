@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events - eFootball HUB</title>
     
-    <!-- SDKs -->
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
-    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="config.js"></script>
 
@@ -62,29 +60,12 @@
     let slideInterval;
     let startX = 0;
 
-    // সঠিক ব্লক আইডি (29212) দিয়ে অ্যাড কন্ট্রোলার ইনিশিয়ালাইজ করা হয়েছে
-    function showEntryAd() {
-        if (window.Adsgram) {
-            try {
-                const adController = window.Adsgram.init({ blockId: "29212" });
-                adController.show().then(() => {
-                    console.log("Event entry ad watched successfully.");
-                }).catch((err) => {
-                    console.log("Ad skipped or failed:", err);
-                });
-            } catch (e) {
-                console.log("Adsgram init error:", e);
-            }
-        }
-    }
-
     async function fetchEvents() {
         const track = document.getElementById('slider-track');
         const vContainer = document.getElementById('vertical-container');
         const dotsContainer = document.getElementById('dots');
 
         try {
-            // event.json থেকে ডেটা ফেচ করা[cite: 15]
             const res = await fetch('event.json');
             if (!res.ok) throw new Error("JSON not found");
             const data = await res.json();
@@ -158,9 +139,7 @@
         });
     }
 
-    // পেজ লোড হওয়ার সাথে সাথে অ্যাড শো করবে এবং ইভেন্ট লোড হবে[cite: 15]
     window.onload = function() {
-        showEntryAd(); 
         fetchEvents(); 
     };
 </script>
