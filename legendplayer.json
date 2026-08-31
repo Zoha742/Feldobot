@@ -1,0 +1,1942 @@
+{
+  "legend": [
+    {
+      
+"name": "K. Heinz Rummenigge",
+"pos": "CF",
+"style": "Adv. Striker",
+"nationality": "Germany",
+"foot": "Right",
+"img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656871/K.H_Rummenigge_l0okbe.png",
+"stats": {
+        "Overall Rating": 104, "Offensive Awareness": 97, "Ball Control": 96, "Dribbling": 99, "Tight Possession": 96,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 88,
+        "Curl": 88, "Set Pieces": 88, "Speed": 101,   "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 95,
+        "Stamina": 90
+      }
+
+},
+    {
+    "name": "PELE",
+    "pos": "CF",
+    "style": "Adv. Striker",
+    "nationality": "Brazil",
+    "foot": "Right",  
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009816/Pele_rrvdvz.png",
+      "stats": {
+        "Overall Rating": 104, "Offensive Awareness": 97, "Ball Control": 96, "Dribbling": 99, "Tight Possession": 96,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 88,
+        "Curl": 85, "Set Pieces": 88, "Speed": 93,   "Acceleration": 95,
+        "Kicking Power": 95, "Jumping": 80, "Physical Contact": 80, "Balance": 95,
+        "Stamina": 85
+      }
+  },
+    
+    {
+    "name": "Lionel Messi",
+    "pos": "CF",
+   "style": "Deep-Lying Forward",
+   "nationality": "Argentina",
+   "foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777795268/Lionel_Messi_d1mqli.png",
+      "stats": {
+        "Overall Rating": 109, "Offensive Awareness": 98, "Ball Control": 104, "Dribbling": 102, "Tight Possession": 100,
+        "Low Pass": 91, "Lofted Pass": 85, "Finishing": 93, "Heading": 74,
+        "Curl": 88, "Set Pieces": 88, "Speed": 96,  "Acceleration": 100,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 101,
+        "Stamina": 88
+      }
+  
+    
+  },
+{
+  "name": "Johan Cruyff",
+  "pos": "CF",
+  "style": "Hole Player",
+"nationality": "Netherlands",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656257/Johan_Cruyff_ramebw.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+
+  
+},
+{
+  "name": "Andriy Shevchenko",
+  "pos": "CF",
+  "style": "Goal Poacher",
+"nationality": "Ukraine",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656277/Andriy_Shevchenko_fbyciw.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+
+},
+{
+  "name": "Eric Cantona",
+  "pos": "CF",
+  "style": "Deep-Lying Forward",
+"nationality": "France",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656267/Eric_Cantona_l3mrwy.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+},
+{
+  "name": "Samuel Eto'o",
+  "pos": "CF",
+  "style": "Goal Poacher",
+"nationality": "Cameroon",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777803795/samuel_eto_o_pyt3hv.png",
+ "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+},
+{
+  "name": "Christian Vieri",
+  "pos": "CF",
+  "style": "Target Man",
+"nationality": "Italy",
+"foot": "Left",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656282/Christian_Vieri_cmptpr.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+
+},
+{
+  "name": "Ferenc Puskas",
+  "pos": "CF",
+  "style": "Deep-Lying Forward",
+"nationality": "Hungary",
+"foot": "Left",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656247/Ferenc_Puskas_oa2tuw.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+},
+{
+  "name": "Jan Koller",
+  "pos": "CF",
+  "style": "Target Man",
+"nationality": "Czech Republic",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656197/Jan_Koller_sudb2s.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+},
+
+    {
+  "name": "Ruud Gullit",
+  "pos": "CF",
+      "style": "Hole Player",
+"nationality": "Netherlands",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777899357/Ruud_Gullit_gutlwf.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+},
+    
+ {
+    "name": "Diego Forlan",
+    "pos": "CF",
+   "style": "Goal Poacher",
+"nationality": "Uruguay",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009933/Diego_Forlan_kfifnk.png",
+   "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  },
+    { 
+     
+      "name": "Z. Ibrahimovic", 
+      "pos": "CF", 
+      "style": "Target Man",
+"nationality": "Sweden",
+"foot": "Right",
+      "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777973797/Zlatan_Ibrahimovic_zqp4qb.png" ,
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    },
+    { 
+     
+      "name": "K. Mbappe", 
+      "pos": "CF",
+      "style": "Goal Poacher",
+"nationality": "France",
+"foot": "Right",
+      "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777973788/Kylian_Mbappe_jvfi9h.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+     
+    },
+     {
+    "name": "G. Batistuta",
+    "pos": "CF",
+    "style": "Goal Poacher",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009933/Gabriel_Batistuta_ti4eom.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  },
+     {
+    "name": "Fernando Torres",
+    "pos": "CF",
+       "style": "Goal Poacher",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009933/Fernando_Torres_irflej.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  },
+     {
+    "name": "Filippo Inzaghi",
+    "pos": "CF",
+       "style": "Goal Poacher",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009933/Filippo_Inzaghi_mch9ec.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+     {
+    "name": "El-Hadji Diouf",
+    "pos": "CF",
+       "style": "Goal Poacher",
+"nationality": "Senegal",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009932/El-Hadji_Diouf_faj1xu.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+     {
+    "name": "Dwight Yorke",
+    "pos": "CF",
+       "style": "Goal Poacher",
+"nationality": "Trinidad and Tobago",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009930/Dwight_Yorke_szi9om.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+    
+    {
+
+    "name": "Roberto Baggio",
+    "pos": "CF",
+      "style": "Deep-Lying Forward",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845098/Roberto_Baggio_tajqm5.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+{
+  "name": "Denis Law",
+  "pos": "CF",
+  "style": "Goal Poacher",
+"nationality": "Scotland",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656272/Denis_Law_c1ieki.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+
+},
+{
+  "name": "Romario",
+  "pos": "CF",
+  "style": "Goal Poacher",
+"nationality": "Brazil",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656224/Romario_lth26a.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  
+},
+    {
+  "name": "Marco van Basten",
+  "pos": "CF",
+  "style": "Fox in the Box",
+"nationality": "Netherlands",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778010206/Marco_van_Basten_zgaovb.png",
+     "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+   
+},
+    {
+  "name": "M. Owen",
+  "pos": "CF",
+      "style": "Goal Poacher",
+"nationality": "England",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778010207/Michael_Owen_gg5aes.png",
+     "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+   
+},
+    {
+  "name": "Roy Makaay",
+  "pos": "CF",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778010208/Roy_Makaay_cisrxv.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+   
+},
+{
+  "name": "Alessandro Del Piero",
+  "pos": "CF",
+  "style": "Deep-Lying Forward",
+"nationality": "Italy",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656262/Alessandro_Del_Piero_uiwgjo.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+ 
+},
+    { 
+      "name": "CR7", 
+      "pos": "CF", 
+      "style": "Goal Poacher",
+"nationality": "Portugal",
+"foot": "Right",
+      "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777973786/Cristiano_Ronaldo_axacin.png",
+     "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+    },
+    {
+    "name": "Adriano",
+    "pos": "CF",
+      "style": "Target Man",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009524/Adriano_nxjncq.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+    {
+    "name": "Dennis Bergkamp",
+    "pos": "CF",
+      "style": "Deep-Lying Forward",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009520/Dennis_Bergkamp_w9qegb.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+    {
+    "name": "Andy Cole",
+    "pos": "CF",
+      "style": "Goal Poacher",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009519/Andy_Cole_qmomqp.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+   
+  },
+    {
+    "name": "Bebeto",
+    "pos": "CF",
+      "style": "Deep-Lying Forward",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009518/Bebeto_o714hs.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  
+  },
+    {
+    "name": "D. Berbatov",
+    "pos": "CF",
+      "style": "Deep-Lying Forward",
+"nationality": "Bulgaria",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009518/D._Berbatov_v2e44y.png",
+      "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+   
+  },
+    {
+    "name": "Carlos Tevez",
+    "pos": "CF",
+      "style": "Deep-Lying Forward",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009518/Carlos_Tevez_t4diol.png",
+     "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+    {
+    "name": "A. Pato",
+    "pos": "CF",
+      "style": "Goal Poacher",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778009517/A._Pato_eogios.png",
+     "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+    
+  },
+
+{
+  "name": "Didier Drogba",
+  "pos": "CF",
+  "style": "Target Man",
+"nationality": "Cote d'Ivoire",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656252/Didier_Drogba_blhvnh.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+
+},
+{
+  "name": "Ruud van Nistelrooij",
+  "pos": "CF",
+  "style": "Fox in the Box",
+"nationality": "Netherlands",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656189/Ruud_van_Nistelrooij_dj3deu.png",
+ "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+ 
+},
+{
+  "name": "Gerd Muller",
+  "pos": "CF",
+  "style": "Fox in the Box",
+"nationality": "Germany",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777656243/Gerd_Muller_i9pchh.png",
+  "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+ 
+},
+
+    {
+  "name": "Roberto Baggio",
+  "pos": "CF",
+  "style": "Deep-Lying Forward",
+"nationality": "Italy",
+"foot": "Right",
+  "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845098/Roberto_Baggio_tajqm5.png",
+    "stats": {
+        "Overall Rating": 105, "Offensive Awareness": 95, "Ball Control": 90, "Dribbling": 90, "Tight Possession": 87,
+        "Low Pass": 82, "Lofted Pass": 88, "Finishing": 95, "Heading": 60,
+        "Curl": 88, "Speed": 93, "Acceleration": 98,
+        "Kicking Power": 95, "Jumping": 85, "Physical Contact": 90, "Balance": 94,
+        "Stamina": 85
+      }
+  
+},
+    
+  {
+    "name": "Pele",
+    "pos": "SS",
+    "style": "Adv. Striker",
+    "nationality": "Brazil",
+    "foot": "Right",  
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470969/Pele_wudkac.png",
+    
+    "bio": "Pele was a Brazilian legend, widely regarded as one of the greatest footballers of all time, known for his creativity, flair, and goal-scoring ability."
+  },
+  {
+    "name": "Gianfranco Zola",
+    "pos": "SS",
+    "style": "Creative Playmaker",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470969/Gianfranco_Zola_svjo2f.png",
+    "bio": "Gianfranco Zola was an Italian playmaker famous for his technique, vision, and creativity, especially during his time at Chelsea."
+  },
+  {
+    "name": "Wayne Rooney",
+    "pos": "SS",
+    "style": "Deep-Lying Forward",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470968/Wayne_Rooney_c95ozq.png",
+    "bio": "Wayne Rooney was a powerful and versatile forward, Manchester United's all-time top scorer, known for his work rate and finishing."
+  },
+  {
+    "name": "Hristo Stoichkov",
+    "pos": "SS",
+    "style": "Dummy Runner",
+"nationality": "Bulgaria",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470968/Hristo_Stoichkov_kaviw0.png",
+    "bio": "Hristo Stoichkov was a Bulgarian icon, known for his aggressive style, powerful left foot, and key role in Barcelona's success."
+  },
+  {
+    "name": "Lionel Messi",
+    "pos": "SS",
+    "style": "Deep-Lying Forward",
+"nationality": "Argentina",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470967/Lionel_Messi_cjusph.png",
+    "bio": "Lionel Messi is widely considered one of the greatest players ever, known for his dribbling, vision, and incredible goal-scoring records."
+  },
+  {
+
+    "name": "Diego Maradona",
+    "pos": "SS",
+   "style": "Classic No. 10",
+"nationality": "Argentina",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470966/Diego_Maradona_xjo0gg.png",
+    "bio": "Diego Maradona was an Argentine legend, famous for his dribbling, vision, and leading Argentina to World Cup glory in 1986."
+  },
+  {
+
+    "name": "Dennis Bergkamp",
+    "pos": "SS",
+    "style": "Deep-Lying Forward",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470967/Dennis_Bergkamp_egt1y3.png",
+    "bio": "Dennis Bergkamp was a Dutch maestro known for his elegant touch, creativity, and memorable goals during his time at Arsenal."
+  },
+  {
+
+    "name": "Raul",
+    "pos": "SS",
+    "style": "Dummy Runner",
+"nationality": "Spain",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775470967/Raul_gstyse.png",
+    "bio": "Raul was a Real Madrid legend, known for his intelligence, positioning, and consistent goal-scoring throughout his career."
+  },
+
+    {
+
+    "name": "Ronaldinho",
+    "pos": "LWF",
+      "style": "Creative Playmaker",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777897821/Ronaldinho_Gaucho_u87qug.png",
+    "bio": "Ronaldinho was a world-class winger, known for his pace, dribbling, and creativity on the left flank."
+  },
+    
+    {
+    "name": "Lionel Messi",
+    "pos": "AMF",
+      "style": "Deep-Lying Forward",
+"nationality": "Argentina",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777795374/Lionel_Messi_tognuz.png",
+    "bio": "Lionel Messi is widely considered one of the greatest players ever, known for his dribbling, vision, and incredible goal-scoring records."
+  },
+    
+    {
+    "name": "Ronaldinho Gaucho",
+    "pos": "AMF",
+      "style": "Classic No. 10",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777124731/Ronaldinho_Gaucho_u87qug.png",
+    "bio": "Francesco Totti was a Roma legend, known for his vision, creativity, and loyalty, spending his entire career at one club."
+  },
+
+    {
+    "name": "Ruud Gullit",
+    "pos": "AMF",
+      "style": "Classic No. 10",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777898562/Ruud_Gullit_jwsji4.png",
+    "bio": "Ruud Gullit was a Roma legend, known for his vision, creativity, and loyalty, spending his entire career at one club."
+  },
+    
+
+{
+
+    "name": "Francesco Totti",
+    "pos": "AMF",
+  "style": "Classic No. 10",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777124661/Francesco_Totti_mb8lyu.png",
+    "bio": "Francesco Totti was a Roma legend, known for his vision, creativity, and loyalty, spending his entire career at one club."
+  },
+  {
+
+    "name": "Michel Platini",
+    "pos": "AMF",
+    "style": "Classic No. 10",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471034/Michel_Platini_ofioqt.png",
+    "bio": "Michel Platini was a French maestro, famous for his playmaking, leadership, and winning three consecutive Ballon d'Or awards."
+  },
+  {
+
+    "name": "Zico",
+    "pos": "AMF",
+    "style": "Classic No. 10",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471033/Zico_erq6a8.png",
+    "bio": "Zico was a Brazilian legend, known for his technical brilliance, free-kick ability, and attacking creativity."
+  },
+  {
+
+    "name": "Pavel Nedved",
+    "pos": "AMF",
+    "style": "Hole Player",
+"nationality": "Czech Republic",
+"foot": "Both",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471033/Pavel_Nedved_xldyek.png",
+    "bio": "Pavel Nedved was a tireless midfielder, known for his energy, long-range shooting, and leadership on the pitch."
+  },
+  {
+
+    "name": "Eden Hazard",
+    "pos": "AMF",
+    "style": "Hole Player",
+"nationality": "Belgium",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471032/Eden_Hazard_vbd5oh.png",
+    "bio": "Eden Hazard was a dazzling playmaker, known for his dribbling, creativity, and match-winning performances."
+  },
+  {
+
+    "name": "Kaka",
+    "pos": "AMF",
+    "style": "Hole Player",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471031/Kaka_v87qem.png",
+    "bio": "Kaka was a Brazilian star, famous for his elegance, pace, and winning the Ballon d'Or in 2007."
+  },
+  {
+
+    "name": "Juan Sebastian Veron",
+    "pos": "AMF", 
+    "style": "Orchestrator",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471030/Juan_Sebastian_Veron_yfkknk.png",
+    "bio": "Juan Sebastian Veron was an Argentine playmaker known for his passing range, vision, and midfield control."
+  },
+  {
+ 
+    "name": "Rivaldo",
+    "pos": "AMF", 
+    "style": "Hole Player",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471030/Rivaldo_e5xhwq.png",
+    "bio": "Rivaldo was a Brazilian superstar, known for his powerful shots, technique, and crucial goals for club and country."
+  },
+  
+  {
+
+    "name": "Andres Iniesta",
+    "pos": "AMF",
+    "style": "Creative Playmaker",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471028/Andres_Iniesta_o98hid.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+    {
+
+    "name": "R. Van de der Vaart",
+    "pos": "AMF",
+      "style": "Classic No. 10",
+"nationality": "Netherlands",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845582/R._van_de_der_Vaart_dohprc.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "Rui Costa",
+    "pos": "AMF", 
+      "style": "Classic No. 10",
+"nationality": "Portugal",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845582/Rui_Costa_buwni1.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "W. Sneijder",
+    "pos": "AMF",
+      "style": "Orchestrator",
+"nationality": "Netherlands",
+"foot": "Both",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778005006/Wesley_Sneijder_b36zld.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "D. Stojkovic",
+    "pos": "AMF", 
+    "style": "Classic No. 10",
+"nationality": "Serbia",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778005007/D._Stojkovic_ivjvl2.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "H. Nakata",
+    "pos": "AMF",
+      "style": "Hole Player",
+"nationality": "Japan",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778005007/Hidetoshi_Nakata_btdpw6.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "Tomas Rosicky",
+    "pos": "AMF",
+      "style": "Hole Player",
+"nationality": "Czech Republic",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778005008/Tomas_Rosicky_oexscq.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+
+    {
+
+    "name": "Uli HoeneSS",
+    "pos": "AMF",
+      "style": "Hole Player",
+"nationality": "Germany",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845581/Uli_HoeneSS_rwxibl.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+    {
+
+    "name": "Shinji Ono",
+    "pos": "AMF",
+      "style": "Creative Playmaker",
+"nationality": "Japan",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777845578/Shinji_Ono_qr10sn.png",
+    "bio": "Andres Iniesta was a Spanish legend, known for his intelligence, control, and scoring the winning goal in the 2010 World Cup final."
+  },
+     
+    {
+    "name": "Lionel Messi",
+    "pos": "RWF",
+      "style": "Creative Playmaker",
+"nationality": "Argentina",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777795186/Lionel_Messi_s8byb9.png",
+    "bio": "Lionel Messi is widely considered one of the greatest players ever, known for his dribbling, vision, and incredible goal-scoring records."
+  },
+
+    {
+    "name": "Gareth Bale",
+    "pos": "RWF",
+      "style": "Roaming Flank",
+"nationality": "Wales",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777890529/Gareth_Bale_mfeupk.png",
+    "bio": "Gareth_Bale is widely considered one of the greatest players ever, known for his dribbling, vision, and incredible goal-scoring records."
+  },
+
+{
+
+    "name": "Luis Figo",
+    "pos": "RWF",
+  "style": "Prolific Winger",
+"nationality": "Portugal",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471160/Luis_Figo_btsf31.png",
+    "bio": "Luis Figo was a Portuguese legend, known for his dribbling, crossing, and creativity on the right wing."
+  },
+ 
+  {
+
+    "name": "Ludovic Giuly",
+    "pos": "RWF",
+    "style": "Prolific Winger",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471158/Ludovic_Giuly_dvluiu.png",
+    "bio": "Ludovic Giuly was a quick and intelligent winger, known for his movement and contributions at Barcelona."
+  },
+    {
+
+    "name": "George Best",
+    "pos": "RWF",
+      "style": "Prolific Winger",
+"nationality": "Northern Ireland",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778091104/George_Best_lbblwc.png",
+    "bio": "George Best was a quick and intelligent winger, known for his movement and contributions at Barcelona."
+  },
+  {
+
+    "name": "Bojan Krkic",
+    "pos": "RWF",
+    "style": "Creative Playmaker",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471157/Bojan_Krkic_sa9i44.png",
+    "bio": "Bojan Krkic was a talented forward, known for his technical ability and early promise at Barcelona."
+  },
+  {
+
+    "name": "Dirk Kuyt",
+    "pos": "RWF",
+    "style": "High-Pressure",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471156/Dirk_Kuyt_n0laqp.png",
+    "bio": "Dirk Kuyt was known for his work rate, versatility, and crucial goals, especially during his time at Liverpool."
+  },
+  {
+
+    "name": "Paulo Sergio",
+    "pos": "RWF",
+    "style": "Prolific Winger",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471155/Paulo_Sergio_chwofn.png",
+    "bio": "Paulo Sergio was a Brazilian forward known for his pace, movement, and contributions in European football."
+  },
+  
+  {
+
+    "name": "Luis Garcia",
+    "pos": "RWF",
+    "style": "Roaming Flank",
+"nationality": "Spain",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471153/Luis_Garcia_na1yqj.png",
+    "bio": "Luis Garcia was a skillful attacker, known for his flair and memorable goals for Liverpool."
+  },
+    {
+
+    "name": "Ronaldinho",
+    "pos": "LWF",
+      "style": "Creative Playmaker",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777897795/Ronaldinho_qnkefy.png",
+    "bio": "Ronaldinho was a world-class winger, known for his pace, dribbling, and creativity on the left flank."
+  },
+    
+{
+
+    "name": "Franck Ribery",
+    "pos": "LWF",
+  "style": "Prolific Winger",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471167/Franck_Ribery_kfskxt.png",
+    "bio": "Franck Ribery was a world-class winger, known for his pace, dribbling, and creativity on the left flank."
+  },
+  {
+
+    "name": "David Villa",
+    "pos": "LWF",
+    "style": "Prolific Winger",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471166/David_Villa_opqael.png",
+    "bio": "David Villa was a prolific Spanish forward, known for his finishing, movement, and key role in Spain's golden era."
+  },
+  {
+
+    "name": "Denilson",
+    "pos": "LWF",
+    "style": "Trickster",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471165/Denilson_dfnbjh.png",
+    "bio": "Denilson was a Brazilian winger famous for his flair, dribbling skills, and entertaining style of play."
+  },
+  {
+
+    "name": "Shinji Okazaki",
+    "pos": "LWF",
+    "style": "Dummy Runner",
+"nationality": "Japan",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471164/Shinji_Okazaki_hydt0t.png",
+    "bio": "Shinji Okazaki was a hardworking attacker, known for his pressing, intelligent movement, and team play."
+  },
+  {
+
+    "name": "Atep Rizal",
+    "pos": "LWF",
+    "style": "Prolific Winger",
+"nationality": "Indonesia",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471163/Atep_Rizal_srqqys.png",
+    "bio": "Atep Rizal is an Indonesian winger known for his speed, dribbling ability, and contributions on the left wing."
+  },
+
+  {
+
+    "name": "David Beckham",
+    "pos": "RMF",
+    "style": "Cross Specialist",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471190/David_Beckham_sy3eyq.png",
+    "bio": "David Beckham was famous for his pinpoint crosses, free-kicks, and passing accuracy."
+  },
+  {
+
+    "name": "Takefusa Kubo",
+    "pos": "RMF",
+    "style": "Creative Playmaker",
+"nationality": "Japan",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471189/Takefusa_Kubo_puojbp.png",
+    "bio": "Takefusa Kubo is a Japanese winger known for his dribbling, agility, and creativity."
+  },
+  {
+
+    "name": "Steve McManaman",
+    "pos": "RMF",
+    "style": "Prolific Winger",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471187/Steve_McManaman_dgxnls.png",
+    "bio": "Steve McManaman was an English winger known for his dribbling, movement, and versatility."
+  },
+  {
+
+    "name": "Stefano Fiore",
+    "pos": "RMF",
+    "style": "Creative Playmaker",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471186/Stefano_Fiore_w8pkoh.png",
+    "bio": "Stefano Fiore was an Italian midfielder known for his passing, vision, and attacking support."
+  },
+  {
+
+    "name": "Ray Parlour",
+    "pos": "RMF",
+    "style": "Box-to-Box",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471185/Ray_Parlour_qsoyjj.png",
+    "bio": "Ray Parlour was an Arsenal midfielder known for his work rate, energy, and consistency."
+  },
+  {
+
+    "name": "Freddie Ljungberg",
+    "pos": "RMF",
+    "style": "Prolific Winger",
+"nationality": "Sweden",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471184/Freddie_Ljungberg_tsxrdf.png",
+    "bio": "Freddie Ljungberg was a Swedish winger known for his intelligent runs and goal-scoring ability."
+  },
+  {
+
+    "name": "Gaizka Mendieta",
+    "pos": "RMF",
+    "style": "Box-to-Box",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471183/Gaizka_Mendieta_nkrbmg.png",
+    "bio": "Gaizka Mendieta was a Spanish midfielder known for his technique, passing, and leadership."
+  },
+  {
+
+    "name": "Hasan Salihamidzic",
+    "pos": "RMF",
+    "style": "Full-back Finisher",
+"nationality": "Bosnia and Herzegovina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471182/Hasan_Salihamidzic_zaf3oc.png",
+    "bio": "Hasan Salihamidzic was a versatile Bosnian player known for his work rate and attacking support."
+  },
+    {
+
+    "name": "C. Karembeu",
+    "pos": "RMF",
+      "style": "Box-to-Box",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778091094/Christian_Karembeu_qk3t8c.png",
+    "bio": "C. Karembeu was a versatile Bosnian player known for his work rate and attacking support."
+  },
+
+  {
+
+    "name": "Pavel Nedved",
+    "pos": "LMF",
+    "style": "Box-to-Box",
+"nationality": "Czech Republic",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471195/Pavel_Nedved_sjiq5h.png",
+    "bio": "Pavel Nedved was a tireless midfielder known for his energy, shooting, and leadership."
+  },
+  {
+
+    "name": "Roberto Donadoni",
+    "pos": "LMF",
+    "style": "Creative Playmaker",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471199/Roberto_Donadoni_xn1ujr.png",
+    "bio": "Roberto Donadoni was an elegant Italian winger known for his technique and creativity."
+  },
+  {
+
+    "name": "Park Ji-Sung",
+    "pos": "LMF",
+    "style": "Box-to-Box",
+"nationality": "South Korea",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471198/Park_Ji-Sung_qbo7vz.png",
+    "bio": "Park Ji-Sung was a hardworking midfielder known for his stamina, pressing, and team play."
+  },
+  {
+
+    "name": "Ze Roberto",
+    "pos": "LMF",
+    "style": "Box-to-Box",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471197/Ze_Roberto_burgvp.png",
+    "bio": "Ze Roberto was a versatile Brazilian midfielder known for his dribbling and consistency."
+  },
+  {
+
+    "name": "Robert Pires",
+    "pos": "LMF",
+    "style": "Creative Playmaker",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471196/Robert_Pires_t1aynr.png",
+    "bio": "Robert Pires was a French winger known for his intelligence, finishing, and creativity."
+  },
+  {
+
+    "name": "Serginho",
+    "pos": "LMF",
+    "style": "Full-back Finisher",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471194/Serginho_i5jpgu.png",
+    "bio": "Serginho was a Brazilian winger known for his speed, dribbling, and attacking runs."
+  },
+
+ {
+
+    "name": "Andres Iniesta",
+    "pos": "CMF",
+   "style": "Orchestrator",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471223/Andres_Iniesta_f6djcy.png",
+    "bio": "Andres Iniesta was a Spanish legend known for his dribbling, intelligence, and match-winning vision."
+  },
+  {
+
+    "name": "Lothar Matthaus",
+    "pos": "CMF",
+    "style": "Box-to-Box",
+"nationality": "Germany",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471220/Lothar_Matthaus_fwdviw.png",
+    "bio": "Lothar Matthaus was a complete midfielder known for leadership, tackling, and long-range shooting."
+  },
+  {
+
+    "name": "Juan Sebastian Veron",
+    "pos": "CMF",
+    "style": "Orchestrator",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471219/Juan_Sebastian_Veron_bgioaq.png",
+    "bio": "Juan Sebastian Veron was an Argentine playmaker known for passing range and vision."
+  },
+  {
+
+    "name": "Steven Gerrard",
+    "pos": "CMF",
+    "style": "Box-to-Box",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471218/Steven_Gerrard_rj8b5k.png",
+    "bio": "Steven Gerrard was a Liverpool icon known for leadership, long shots, and all-round midfield power."
+  },
+  {
+
+    "name": "Xavi",
+    "pos": "CMF",
+    "style": "Orchestrator",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777892593/Xavi_wsxtiw.png",
+    "bio": "Xavi was a complete midfielder known for strength, technique, and Champions League success."
+  },
+  {
+
+    "name": "Paul Scholes",
+    "pos": "CMF",
+    "style": "Orchestrator",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471216/Paul_Scholes_ug4p2v.png",
+    "bio": "Paul Scholes was a Manchester United legend known for passing accuracy and long-range shooting."
+  },
+  {
+
+    "name": "Frank Lampard",
+    "pos": "CMF",
+    "style": "Hole Player",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777125745/Frank_Lampard_kj2ra0.png",
+    "bio": "Frank Lampard was a goal-scoring midfielder known for late runs and finishing ability."
+  },
+  {
+
+    "name": "Guti",
+    "pos": "CMF",
+    "style": "Creative Playmaker",
+"nationality": "Spain",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471209/Guti_b5n13n.png",
+    "bio": "Guti was a Real Madrid playmaker known for creativity and unpredictable passing."
+  },
+  {
+
+    "name": "Mark van Bommel",
+    "pos": "CMF",
+    "style": "The Destroyer",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471208/Mark_van_Bommel_wdpctx.png",
+    "bio": "Mark van Bommel was a strong midfielder known for leadership and defensive contribution."
+  },
+  {
+
+    "name": "Bryan Robson",
+    "pos": "CMF",
+    "style": "Box-to-Box",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471207/Bryan_Robson_d7yudy.png",
+    "bio": "Bryan Robson was a Manchester United captain known for stamina and box-to-box play."
+  },
+  {
+
+    "name": "Thiago Alcantara",
+    "pos": "CMF",
+    "style": "Orchestrator",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471205/Thiago_Alcantara_mcpxfd.png",
+    "bio": "Thiago Alcantara is a Spanish midfielder known for technique, control, and passing creativity."
+  },
+  {
+
+    "name": "Roberto Donadoni",
+    "pos": "CMF",
+    "style": "Creative Playmaker",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471204/Roberto_Donadoni_oh8b7c.png",
+    "bio": "Roberto Donadoni was an elegant Italian midfielder known for dribbling and balance."
+  },
+    {
+
+    "name": "R. Van De Der Vaart",
+    "pos": "CMF",
+      "style": "Classic No. 10",
+"nationality": "Netherlands",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777892299/R._van_de_der_Vaart_idsbq9.png",
+    "bio": "Roberto Donadoni was an elegant Italian midfielder known for dribbling and balance."
+  },
+    {
+
+    "name": "Deco",
+    "pos": "CMF",
+      "style": "Creative Playmaker",
+"nationality": "Portugal",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778010917/Deco_okh2se.png",
+    "bio": "Deco was an elegant Italian midfielder known for dribbling and balance."
+  },
+
+ {
+
+    "name": "Andrea Pirlo",
+    "pos": "DMF",
+   "style": "Orchestrator",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471237/Andrea_Pirlo_psnvig.png",
+    "bio": "Andrea Pirlo was a deep-lying playmaker known for his vision, passing, and set-piece mastery."
+  },
+  {
+
+    "name": "Patrick Vieira",
+    "pos": "DMF",
+    "style": "The Destroyer",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471236/Patrick_Vieira_ggsvop.png",
+    "bio": "Patrick Vieira was a dominant midfielder known for strength, leadership, and box-to-box ability."
+  },
+  {
+
+    "name": "Frank Rijkaard",
+    "pos": "DMF",
+    "style": "Orchestrator",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471237/Frank_Rijkaard_lhgdjs.png",
+    "bio": "Frank Rijkaard was a legendary defensive midfielder known for composure, intelligence, and defensive control."
+  },
+  
+  {
+
+    "name": "Gennaro Gattuso",
+    "pos": "DMF",
+    "style": "The Destroyer",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471233/Gennaro_Gattuso_mbjpr4.png",
+    "bio": "Gennaro Gattuso was a fierce midfielder known for aggression, tackling, and work rate."
+  },
+  {
+
+    "name": "Clarence Seedorf",
+    "pos": "DMF",
+    "style": "Box-to-Box",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471232/Clarence_Seedorf_cdkw3d.png",
+    "bio": "Clarence Seedorf was a versatile midfielder known for strength, technique, and big-game performance."
+  },
+    
+  {
+
+    "name": "Xavi Alonso",
+    "pos": "DMF",
+    "style": "Orchestrator",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777893222/Xabi_Alonso_jdwkuw.png",
+    "bio": "Xavi was a Barcelona legend known for passing, control, and midfield dominance."
+  },
+  {
+ 
+    "name": "Claude Makelele",
+    "pos": "DMF",
+    "style": "The Destroyer",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471226/Claude_Makelele_lplqxo.png",
+    "bio": "Claude Makelele was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "Phillip Cocu",
+    "pos": "DMF",
+      "style": "Box-to-Box",
+"nationality": "Netherlands",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Phillip_Cocu_ztasyq.png",
+    "bio": "Phillip Cocu was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "Pep Guardiola",
+    "pos": "DMF",
+      "style": "Orchestrator",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Pep_Guardiola_zt2scj.png",
+    "bio": "Pep Guardiola was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "Darren Fletcher",
+    "pos": "DMF",
+      "style": "Box-to-Box",
+"nationality": "Scotland",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Darren_Fletcher_jyzbxk.png",
+    "bio": "Darren Fletcher was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "D. Albertini",
+    "pos": "DMF",
+      "style": "Orchestrator",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Demetrio_Albertini_l69xkd.png",
+    "bio": "D. Albertini was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "Massimo Ambrosini",
+    "pos": "DMF",
+      "style": "The Destroyer",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Massimo_Ambrosini_oq56q7.png",
+    "bio": "Massimo Ambrosini was a defensive midfield specialist known for interceptions and positioning."
+  },
+    {
+ 
+    "name": "Gilberto Silva",
+    "pos": "DMF",
+      "style": "The Destroyer",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778090657/Gilberto_Silva_altn0s.png",
+    "bio": "Gilberto Silva was a defensive midfield specialist known for interceptions and positioning."
+  },
+  
+ {
+   
+    "name": "Roberto Carlos",
+    "pos": "LB",
+   "style": "Offensive Full-back",
+"nationality": "Brazil",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472226/Roberto_Carlos_hcxkok.png",
+    "bio": "Roberto Carlos was a legendary Brazilian left-back known for his powerful shots, speed, and attacking runs."
+  },
+  {
+    
+    "name": "Martin Caceres",
+    "pos": "LB",
+    "style": "Defensive Full-back",
+"nationality": "Uruguay",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472221/Martin_Caceres_sbmmyl.png",
+    "bio": "Martin Caceres is a versatile defender known for his ability to play across the backline."
+  },
+  {
+    
+    "name": "Javier Zanetti",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472226/Javier_Zanetti_ej0eqo.png",
+    "bio": "Javier Zanetti was a legendary defender known for leadership, consistency, and versatility."
+  },
+    
+  {
+    "name": "Gareth Bale",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Wales",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472225/Gareth_Bale_u89xpu.png",
+    "bio": "Gareth Bale started as a left-back before becoming a world-class winger known for pace and power."
+  },
+  {
+   
+    "name": "Paolo Maldini",
+    "pos": "LB",
+    "style": "Defensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472224/Paolo_Maldini_yr9pd6.png",
+    "bio": "Paolo Maldini was an iconic defender known for elegance, positioning, and loyalty to AC Milan."
+  },
+  {
+   
+    "name": "G. van Bronckhorst",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Netherlands",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472224/G._van_Bronckhorst_eglzu6.png",
+    "bio": "Giovanni van Bronckhorst was a Dutch left-back known for technique, leadership, and long-range goals."
+  },
+  {
+   
+    "name": "Sergi Barjuan",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Spain",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472223/Sergi_Barjuan_zzb16r.png",
+    "bio": "Sergi Barjuan was a Spanish left-back known for attacking support and consistency."
+  },
+  {
+   
+    "name": "Denis Irwin",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Ireland",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472222/Denis_Irwin_jlprxg.png",
+    "bio": "Denis Irwin was a reliable full-back known for defensive solidity and set-piece ability."
+  },
+  {
+    
+    "name": "A. Costacurta",
+    "pos": "LB",
+    "style": "Defensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472222/A._Costacurta_wvdtrp.png",
+    "bio": "Alessandro Costacurta was an Italian defender known for intelligence, positioning, and discipline."
+  },
+  {
+    
+    "name": "Bixente Lizarazu",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "France",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472221/Bixente_Lizarazu_iyikqc.png",
+    "bio": "Bixente Lizarazu was a French left-back known for pace, aggression, and defensive strength."
+  },
+  {
+   
+    "name": "Yuto Nagatomo",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "Japan",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472220/Yuto_Nagatomo_xqnh3i.png",
+    "bio": "Yuto Nagatomo is a Japanese full-back known for energy, stamina, and attacking support."
+  },
+  {
+   
+    "name": "Mikael Silvestre",
+    "pos": "LB",
+    "style": "Offensive Full-back",
+"nationality": "France",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472220/Mikael_Silvestre_ovphto.png",
+    "bio": "Mikael Silvestre was a French defender known for versatility and composure at the back."
+  },
+
+ {
+   
+    "name": "Cafu",
+    "pos": "RB",
+   "style": "Offensive Full-back",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471251/Cafu_q8ip7b.png",
+    "bio": "Cafu was a legendary Brazilian right-back known for his stamina, speed, and attacking runs."
+  },
+    {
+   
+    "name": "Javier Zanetti",
+    "pos": "RB",
+      "style": "Offensive Full-back",
+"nationality": "Argentina",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777896901/Javier_Zanetti_u3wsdo.png",
+    "bio": "Javier Zanetti was an Italian defender known for leadership, positioning, and consistency."
+  },
+    
+  {
+   
+    "name": "Giuseppe Bergomi",
+    "pos": "RB",
+    "style": "Defensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471249/Giuseppe_Bergomi_i32uuk.png",
+    "bio": "Giuseppe Bergomi was an Italian defender known for leadership, positioning, and consistency."
+  },
+    
+  {
+  
+    "name": "A. Costacurta",
+    "pos": "RB",
+    "style": "Defensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471248/A._Costacurta_izj5dg.png",
+    "bio": "Alessandro Costacurta was a disciplined defender known for intelligence and tactical awareness."
+  },
+  {
+   
+    "name": "Massimo Oddo",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471248/Massimo_Oddo_xpck4f.png",
+    "bio": "Massimo Oddo was an Italian right-back known for crossing ability and attacking support."
+  },
+  {
+   
+    "name": "Albert Ferrer",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471246/Albert_Ferrer_qng0fo.png",
+    "bio": "Albert Ferrer was a Spanish defender known for reliability and defensive discipline."
+  },
+  {
+   
+    "name": "Maicon",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471245/Maicon_rvq53y.png",
+    "bio": "Maicon was a powerful Brazilian right-back known for strength, pace, and attacking runs."
+  },
+  {
+    
+    "name": "Christian Panucci",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471243/Christian_Panucci_as9dsc.png",
+    "bio": "Christian Panucci was an Italian defender known for versatility and experience at top clubs."
+  },
+  {
+    
+    "name": "Lee Dixon",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775471242/Lee_Dixon_qjoxxh.png",
+    "bio": "Lee Dixon was an Arsenal right-back known for consistency and defensive awareness."
+  },
+  {
+    
+    "name": "Juliano Belletti",
+    "pos": "RB",
+    "style": "Offensive Full-back",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777895434/Belletti_ftlmo8.png",
+    "bio": "Juliano Belletti was a Brazilian full-back known for important goals and attacking support."
+  },
+  
+{
+   
+    "name": "Carles Puyol",
+    "pos": "CB",
+  "style": "The Destroyer",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777893609/Carles_Puyol_iwr91z.png",
+    "bio": "Carles Puyol was an Italian defensive legend known for positioning, leadership, and reading the game."
+  },
+    {
+   
+    "name": "Fabio Cannavaro",
+    "pos": "CB",
+      "style": "The Destroyer",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777893709/Fabio_Cannavaro_xaiglw.png",
+    "bio": "Fabio Cannavaro was an Italian defensive legend known for positioning, leadership, and reading the game."
+  },
+
+    {
+   
+    "name": "Franz Beckenbauer",
+    "pos": "CB",
+      "style": "Build Up",
+"nationality": "Germany",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777893779/Franz_Beckenbauer_ufsvrv.png",
+    "bio": "Franz Beckenbauer was an Italian defensive legend known for positioning, leadership, and reading the game."
+  },
+    
+ {
+   
+    "name": "Franco Baresi",
+    "pos": "CB",
+   "style": "Build Up",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472137/Franco_Baresi_n7ftqj.png",
+    "bio": "Franco Baresi was an Italian defensive legend known for positioning, leadership, and reading the game."
+  },
+    {
+    
+    "name": "Ivan Cordoba",
+    "pos": "CB",
+      "style": "The Destroyer",
+"nationality": "Colombia",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777972083/Ivan_Cordoba_rwi2ad.png",
+    "bio": "Lilian Thuram was a ball-playing defender known for powerful shooting and passing ability."
+  },
+    
+  {
+    
+    "name": "Jaap Stam",
+    "pos": "CB",
+    "style": "The Destroyer",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472137/Jaap_Stam_lotymx.png",
+    "bio": "Jaap Stam was a powerful Dutch defender known for strength, tackling, and aerial dominance."
+  },
+  {
+   
+    "name": "Marcel Desailly",
+    "pos": "CB",
+    "style": "The Destroyer",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472137/Marcel_Desailly_kka0he.png",
+    "bio": "Marcel Desailly was a French defender known for physical strength, versatility, and composure."
+  },
+  {
+   
+    "name": "Rio Ferdinand",
+    "pos": "CB",
+    "style": "Build Up",
+"nationality": "England",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472137/Rio_Ferdinand_giigds.png",
+    "bio": "Rio Ferdinand was a modern defender known for pace, ball control, and clean defending."
+  },
+  {
+    
+    "name": "Alessandro Nesta",
+    "pos": "CB",
+    "style": "Build Up",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777893484/Alessandro_Nesta_yv28bs.png",
+    "bio": "Alessandro Nesta was a versatile defender known for intelligence, calmness, and tactical awareness."
+  },
+  {
+    
+    "name": "Ronald Koeman",
+    "pos": "CB",
+    "style": "Build Up",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472137/Ronald_Koeman_xuoi48.png",
+    "bio": "Ronald Koeman was a ball-playing defender known for powerful shooting and passing ability."
+  },
+{
+    
+    "name": "Lilian Thuram",
+    "pos": "CB",
+  "style": "The Destroyer",
+"nationality": "France",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777894027/Lilian_Thuram_vllsot.png",
+    "bio": "Lilian Thuram was a ball-playing defender known for powerful shooting and passing ability."
+  },
+    {
+   
+    "name": "Angelo Peruzzi",
+    "pos": "GK",
+      "style": "Offensive GK",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1777123018/Angelo_Peruzzi_jsvsmi.png",
+    "bio": "Angelo Peruzzi was a fierce German goalkeeper known for leadership, aggression, and shot-stopping."
+  },
+
+ {
+   
+    "name": "Gianluigi Buffon",
+    "pos": "GK",
+   "style": "Defensive GK",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472278/Gianluigi_Buffon_owhxfv.png",
+    "bio": "Gianluigi Buffon was an Italian goalkeeping legend known for his reflexes, leadership, and consistency."
+  },
+  {
+   
+    "name": "Peter Schmeichel",
+    "pos": "GK",
+    "style": "Defensive GK",
+"nationality": "Denmark",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472276/Peter_Schmeichel_lnpuvq.png",
+    "bio": "Peter Schmeichel was a dominant goalkeeper known for his presence, saves, and leadership at Manchester United."
+  },
+  {
+    
+    "name": "Iker Casillas",
+    "pos": "GK",
+    "style": "Offensive GK",
+"nationality": "Spain",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472275/Iker_Casillas_kux68y.png",
+    "bio": "Iker Casillas was a Spanish legend known for quick reflexes and crucial saves in big matches."
+  },
+  {
+    
+    "name": "Petr Cech",
+    "pos": "GK",
+    "style": "Defensive GK",
+"nationality": "Czech Republic",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472274/Petr_Cech_pqj4gn.png",
+    "bio": "Petr Cech was a Chelsea legend known for shot-stopping, consistency, and calmness under pressure."
+  },
+    {
+   
+    "name": "Edwin van der Sar",
+    "pos": "GK",
+      "style": "Offensive GK",
+"nationality": "Netherlands",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778091295/Edwin_van_der_Sar_gcvkyo.png",
+    "bio": "Edwin van der Sar is a French goalkeeper known for reflexes, leadership, and World Cup success."
+  },
+    {
+   
+    "name": "Jordan Pickford",
+    "pos": "GK",
+      "style": "Offensive GK",
+"nationality": "England",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/v1778091296/Jordan_Pickford_lacuwn.png",
+    "bio": "Jordan Pickford is a French goalkeeper known for reflexes, leadership, and World Cup success."
+  },
+  {
+   
+    "name": "Hugo Lloris",
+    "pos": "GK",
+    "style": "Offensive GK",
+"nationality": "France",
+"foot": "Left",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472273/Hugo_Lloris_qnjud0.png",
+    "bio": "Hugo Lloris is a French goalkeeper known for reflexes, leadership, and World Cup success."
+  },
+  {
+    
+    "name": "Dida",
+    "pos": "GK",
+    "style": "Defensive GK",
+"nationality": "Brazil",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472272/Dida_n3glms.png",
+    "bio": "Dida was a Brazilian goalkeeper known for composure, penalty saves, and success with AC Milan."
+  },
+  {
+    
+    "name": "Christian Abbiati",
+    "pos": "GK",
+    "style": "Defensive GK",
+"nationality": "Italy",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472272/Christian_Abbiati_kahurw.png",
+    "bio": "Christian Abbiati was an Italian goalkeeper known for reliability and long career at AC Milan."
+  },
+  {
+    
+    "name": "Oliver Kahn",
+    "pos": "GK",
+    "style": "Defensive GK",
+"nationality": "Germany",
+"foot": "Right",
+    "img": "https://res.cloudinary.com/dyqegwdme/image/upload/q_auto/f_auto/v1775472272/Oliver_Kahn_zkzlbr.png",
+    "bio": "Oliver Kahn was a fierce German goalkeeper known for leadership, aggression, and shot-stopping."
+  }
+    
+],
+  "ads_config": {
+    "reward_id": "int-41",
+    "banner_id": "int-42"
+  }
+}
