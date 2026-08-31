@@ -64,16 +64,14 @@
 <script>
     console.log("Database connected successfully!");
 
-    // Adsgram Interstitial Ad Function
-    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45477" }) : null;
+    // Adsgram Interstitial Ad Function (Updated UnitID: int-45481)
+    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45481" }) : null;
 
     function showAdsgramAd() {
         if (adController) {
             adController.show().then((result) => {
-                // Ad completed successfully
                 console.log("Ad shown successfully", result);
             }).catch((err) => {
-                // Ad failed to show
                 console.log("Ad error", err);
             });
         } else {
