@@ -9,7 +9,7 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="config.js"></script>
 
-    <!-- Adsgram Interstitial Script SDK (ID: int-45477) -->
+    <!-- Adsgram Interstitial Script SDK -->
     <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -57,8 +57,11 @@
     const tg = window.Telegram.WebApp;
     tg.expand();
 
-    // Adsgram Interstitial Ad Setup (UnitID: int-45477)
-    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45477" }) : null;
+    // Adsgram Interstitial Ad Setup
+    let adController = null;
+    if (typeof window.Adsgram !== "undefined") {
+        adController = window.Adsgram.init({ blockId: "int-42" });
+    }
 
     function showAdsgramAd() {
         if (adController) {
@@ -139,10 +142,13 @@
 
     function setupTouch() {
         const slider = document.getElementById('slider');
+        if (!slider) return;
+        
         slider.addEventListener('touchstart', e => {
             startX = e.touches[0].clientX;
             clearInterval(slideInterval);
         });
+        
         slider.addEventListener('touchend', e => {
             let endX = e.changedTouches[0].clientX;
             if (startX - endX > 50) currentIndex = (currentIndex + 1) % images.length;
