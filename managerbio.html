@@ -6,11 +6,9 @@
     <title>Manager Profile</title>
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
-    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     
     <script src="config.js"></script>
-    <script src="ads_manager_limit.js"></script> <!-- সেন্ট্রাল অ্যাড স্ক্রিপ্ট -->
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -28,23 +26,8 @@
         .row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
         .row:last-child { border-bottom: none; }
 
-        .subtitle { 
-            font-weight: bold; 
-            color: #fbbf24; 
-            font-size: 13px; 
-            text-transform: uppercase; 
-            width: 45%; 
-        }
-
-        .body-text { 
-            font-size: 15px; 
-            color: #ffffff; 
-            text-align: right; 
-            width: 55%; 
-            font-weight: 500;
-        }
-
-        video { width: 100%; border-radius: 10px; border: 1px solid #1e2d4d; margin-top: 10px; }
+        .subtitle { font-weight: bold; color: #fbbf24; font-size: 13px; text-transform: uppercase; width: 45%; }
+        .body-text { font-size: 15px; color: #ffffff; text-align: right; width: 55%; font-weight: 500; }
     </style>
 </head>
 <body>
@@ -76,7 +59,6 @@
         <source src="https://res.cloudinary.com/dyqegwdme/video/upload/v1777200154/Screen_Recording_20260426_161047_eFootball_cckti0.mp4" type="video/mp4">
     </video>
 
-    
     <script>
         console.log("Database connected successfully!");
         
@@ -96,22 +78,6 @@
                 document.getElementById('m-km-s').innerText = m.km_style;
                 document.getElementById('m-km-p').innerText = m.km_pos;
             }
-
-            // --- ১২ ঘণ্টার লিমিটেড অ্যাড সিস্টেম ---
-            setTimeout(() => {
-                try {
-                    // নতুন অবজেক্ট ads_manager_limit চেক হবে
-                    if (typeof ads_manager_limit !== 'undefined') {
-                        // ১. ভিডিও অ্যাড (১২ ঘণ্টায় একবার)
-                        ads_manager_limit.showBioAd('manager_bio_page');
-
-                        // ২. ব্যানার অ্যাড (আপাতত বন্ধ)
-                        // ads_manager_limit.loadBioBanner('banner-container');
-                    }
-                } catch (e) {
-                    console.log("Ad Loading Error:", e);
-                }
-            }, 800);
         }; 
     </script>
 </body>
