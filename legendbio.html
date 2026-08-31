@@ -9,6 +9,9 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="config.js"></script>
      
+    <!-- Adsgram Interstitial Script SDK -->
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root { --bg: #050a18; --card: #121e36; --primary: #fbbf24; --text: #ffffff; }
@@ -54,6 +57,21 @@
 <div class="stats-container" id="stats-container"></div>
 
 <script>
+    // Adsgram Interstitial Ad Setup (UnitID: int-45481)
+    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45481" }) : null;
+
+    function showAdsgramAd() {
+        if (adController) {
+            adController.show().then((result) => {
+                console.log("Ad shown successfully", result);
+            }).catch((err) => {
+                console.log("Ad error", err);
+            });
+        } else {
+            console.log("Adsgram SDK not loaded yet.");
+        }
+    }
+
     function getStatColor(val) {
         if (val >= 94) return "#0FD4B1"; 
         if (val >= 90) return "#5AB510"; 
@@ -63,6 +81,11 @@
     }
 
     window.onload = () => {
+        // পেজ লোড হওয়ার সাথে সাথে Adsgram অ্যাড ট্রিগার করার জন্য
+        setTimeout(() => {
+            showAdsgramAd();
+        }, 1000);
+
         const pData = localStorage.getItem('selected_player');
         if (pData) {
             const p = JSON.parse(pData);
