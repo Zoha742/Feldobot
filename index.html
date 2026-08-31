@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="bn"> 
+<html lang="bn">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feldobot - Home</title>
-    <!-- SDKs -->
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -20,7 +18,8 @@
         .menu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 400px; margin: 0 auto; }
         .menu-card { 
             background: var(--card); border: 1.5px solid var(--border); border-radius: 14px; 
-            padding: 25px 15px; text-align: center; cursor: pointer; transition: transform 0.2s, border-color 0.2s; 
+            padding: 25px 15px; text-align: center; cursor: pointer; text-decoration: none; display: block;
+            transition: transform 0.2s, border-color 0.2s; 
         }
         .menu-card:active { transform: scale(0.95); }
         .menu-card:hover { border-color: var(--primary); }
@@ -38,27 +37,27 @@
     <div class="container">
         <div class="header">
             <h2>Feldobot HUB</h2>
-            <p>Choose a category to explore</p>
+            <p>Select a category to explore</p>
         </div>
 
-        <!-- ৪টি কার্ড (Player, Legend, Manager, Event) -->
+        <!-- ৪টি পেজের লিংকযুক্ত কার্ড -->
         <div class="menu-grid">
-            <div class="menu-card" onclick="openPage('player.html')">
+            <a href="player.html" class="menu-card">
                 <i class="fa-solid fa-user-shield"></i>
                 <h3>Player</h3>
-            </div>
-            <div class="menu-card" onclick="openPage('legend.html')">
+            </a>
+            <a href="legend.html" class="menu-card">
                 <i class="fa-solid fa-star"></i>
                 <h3>Legend</h3>
-            </div>
-            <div class="menu-card" onclick="openPage('manager.html')">
+            </a>
+            <a href="manager.html" class="menu-card">
                 <i class="fa-solid fa-briefcase"></i>
                 <h3>Manager</h3>
-            </div>
-            <div class="menu-card" onclick="openPage('event.html')">
+            </a>
+            <a href="event.html" class="menu-card">
                 <i class="fa-solid fa-calendar-days"></i>
                 <h3>Event</h3>
-            </div>
+            </a>
         </div>
     </div>
 
@@ -71,26 +70,6 @@
     <script>
         const tg = window.Telegram.WebApp;
         tg.expand();
-
-        // অ্যাড দেখিয়ে পেজে নিয়ে যাওয়ার ফাংশন
-        function openPage(targetUrl) {
-            if (window.Adsgram) {
-                try {
-                    const adController = window.Adsgram.init({ blockId: "29212" });
-                    adController.show().then(() => {
-                        window.location.href = targetUrl;
-                    }).catch((err) => {
-                        console.log("Ad skipped or failed:", err);
-                        window.location.href = targetUrl; // অ্যাড ফেইল করলেও পেজে নিয়ে যাবে
-                    });
-                } catch (e) {
-                    console.log("Adsgram init error:", e);
-                    window.location.href = targetUrl;
-                }
-            } else {
-                window.location.href = targetUrl;
-            }
-        }
     </script>
 </body>
 </html>
