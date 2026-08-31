@@ -2,11 +2,10 @@
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events - eFootball HUB</title>
-    
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="config.js"></script>
 
@@ -69,7 +68,6 @@
             const res = await fetch('event.json');
             if (!res.ok) throw new Error("JSON not found");
             const data = await res.json();
-            
             images = data.events || data.event || [];
 
             if (images.length === 0) {
@@ -99,7 +97,6 @@
             startAutoSlide();
             setupTouch();
         } catch (e) {
-            console.error("Error:", e.message);
             track.innerHTML = "<p style='text-align:center; padding-top:80px; color:red;'>Failed to load events.</p>";
         }
     }
@@ -119,9 +116,7 @@
         const dots = document.querySelectorAll('.dot');
         if(!track) return;
         track.style.transform = `translateX(-${currentIndex * 100}%)`;
-        dots.forEach((d, i) => {
-            d.classList.toggle('active', i === currentIndex);
-        });
+        dots.forEach((d, i) => d.classList.toggle('active', i === currentIndex));
     }
 
     function setupTouch() {
@@ -139,9 +134,7 @@
         });
     }
 
-    window.onload = function() {
-        fetchEvents(); 
-    };
+    window.onload = () => fetchEvents();
 </script>
 </body>
 </html>
