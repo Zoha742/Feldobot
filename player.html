@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Players - eFootball HUB</title>
-    <!-- Firebase & SDKs -->
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -22,45 +21,17 @@
         .pos-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 25px; }
         .pos-btn { background: var(--card-dark); border: 1px solid var(--primary); padding: 12px; text-align: center; border-radius: 8px; cursor: pointer; color: var(--primary); font-weight: bold; font-size: 14px; }
         
-        .player-grid { 
-            display: grid; 
-            grid-template-columns: 1fr 1fr 1fr; 
-            gap: 12px; 
-            padding-bottom: 40px; 
-        }
+        .player-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; padding-bottom: 40px; }
 
         .top-card { 
-            background: var(--card-dark); 
-            border-radius: 10px; 
-            overflow: hidden; 
-            border: 1.5px solid var(--primary);
-            text-align: center; 
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.2s;
+            background: var(--card-dark); border-radius: 10px; overflow: hidden; border: 1.5px solid var(--primary);
+            text-align: center; cursor: pointer; display: flex; flex-direction: column; transition: transform 0.2s;
         }
-        
         .top-card:active { transform: scale(0.95); }
-
-        .top-card img { 
-            width: 100%; 
-            aspect-ratio: 2/2.3; 
-            object-fit: cover; 
-            object-position: top; 
-            display: block;
-        }
-
+        .top-card img { width: 100%; aspect-ratio: 2/2.3; object-fit: cover; object-position: top; display: block; }
         .top-card p { 
-            font-size: 11px; 
-            padding: 8px 2px; 
-            margin: 0; 
-            color: var(--text); 
-            background: rgba(18, 30, 54, 0.9);
-            font-weight: bold;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            font-size: 11px; padding: 8px 2px; margin: 0; color: var(--text); background: rgba(18, 30, 54, 0.9);
+            font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
         }
     </style>
 </head>
@@ -90,8 +61,6 @@
     <div id="player-container" class="player-grid"></div>
 
    <script>
-    console.log("Database connected successfully!");
-       
     const tg = window.Telegram.WebApp;
     tg.expand();
 
@@ -101,16 +70,12 @@
         
         try {
             const response = await fetch('player.json'); 
-            
-            if (!response.ok) {
-                throw new Error("ফাইল খুঁজে পাওয়া যায়নি (File not found)");
-            }
+            if (!response.ok) throw new Error("File not found");
 
             const data = await response.json();
             const filteredPlayers = data.players.filter(p => p.pos === pos);
             
             container.innerHTML = ""; 
-
             if (filteredPlayers.length === 0) {
                 container.innerHTML = "<p style='grid-column: span 3; text-align:center;'>No players found for " + pos + "</p>";
                 return;
@@ -119,19 +84,12 @@
             filteredPlayers.forEach(p => {
                 const card = document.createElement('div');
                 card.className = 'top-card';
-                card.innerHTML = `
-                    <img src="${p.img}" onerror="this.src='https://via.placeholder.com/150'">
-                    <p>${p.name}</p>
-                `;
-                
-                card.onclick = () => {
-                    openBio(p);
-                };
+                card.innerHTML = `<img src="${p.img}" onerror="this.src='https://via.placeholder.com/150'"><p>${p.name}</p>`;
+                card.onclick = () => openBio(p);
                 container.appendChild(card);
             });
         } catch (error) {
-            console.error(error);
-            container.innerHTML = "<p style='grid-column: span 3; text-align:center; color: red;'>ডাটা লোড করতে সমস্যা হয়েছে।</p>";
+            container.innerHTML = "<p style='grid-column: span 3; text-align:center; color: red;'>Error loading data.</p>";
         }
     }
 
@@ -140,9 +98,7 @@
         window.location.href = 'playerbio.html';
     }
 
-    window.onload = () => {
-        loadPlayers('CF');
-    };
+    window.onload = () => loadPlayers('CF');
 </script>
 </body>
 </html>
