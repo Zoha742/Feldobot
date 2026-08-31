@@ -34,6 +34,9 @@
     <div id="manager-container" class="grid"></div>
 
 <script>
+    const tg = window.Telegram.WebApp;
+    tg.expand();
+
     async function loadManagers() {
         const container = document.getElementById('manager-container');
         container.innerHTML = "<p style='grid-column: span 3; text-align:center;'>Loading...</p>";
