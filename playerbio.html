@@ -12,7 +12,7 @@
     <!-- সেন্ট্রাল স্ক্রিপ্ট লিঙ্ক -->
     <script src="config.js"></script>
     
-    <!-- Adsgram Interstitial Script SDK -->
+    <!-- Adsgram Interstitial Script SDK (ID: int-45477) -->
     <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -64,8 +64,8 @@
 <script>
     console.log("Database connected successfully!");
 
-    // Adsgram Interstitial Ad Function (Updated UnitID: int-45481)
-    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45481" }) : null;
+    // Adsgram Interstitial Ad Function (UnitID: int-45477)
+    const adController = window.Adsgram ? window.Adsgram.init({ blockId: "int-45477" }) : null;
 
     function showAdsgramAd() {
         if (adController) {
@@ -88,7 +88,6 @@
     }
 
     window.onload = () => {
-        // Trigger Adsgram Interstitial Ad when page loads
         setTimeout(() => {
             showAdsgramAd();
         }, 1000);
