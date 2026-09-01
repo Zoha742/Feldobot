@@ -49,6 +49,7 @@
 
 <div class="info-grid">
     <div class="info-box"><span class="info-label">Nationality</span><span class="info-value" id="p-nation">--</span></div>
+    
     <div class="info-box"><span class="info-label">Position</span><span class="info-value" id="p-pos">--</span></div>
     <div class="info-box"><span class="info-label">Foot</span><span class="info-value" id="p-foot">--</span></div>
     <div class="info-box"><span class="info-label">Playing Style</span><span class="info-value" id="p-style">--</span></div>
@@ -74,6 +75,7 @@
             document.getElementById('p-img').src = p.img;
             document.getElementById('p-name').innerText = p.name;
             document.getElementById('p-nation').innerText = p.nationality || "N/A";
+            
             document.getElementById('p-pos').innerText = p.pos || "N/A";
             document.getElementById('p-foot').innerText = p.foot || "N/A";
             document.getElementById('p-style').innerText = p.style || "N/A";
